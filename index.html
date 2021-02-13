@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Drive</title>
+    <script src="https://kit.fontawesome.com/5e14d5d81a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <section class="border-bottom">
+        <div class="container-fluid">
+        <div class="row p-4">
+
+            <div class="col-2 d-flex align-items-center">
+                <a href=""><img class="google-drive-logo mr-2" width="120" src="img/Logo.png" alt="goole-drive-logo"></a>
+            </div>
+
+            <div class="col-10 d-flex align-items-center">
+
+                <div class="input-group">
+                    <i class="fas fa-search"></i>
+                    <input class="search-input" type="text" placeholder="Search in drive">
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center">
+
+                    <div class="d-flex align-items-center mr-5">
+                        <a href="#"><i class="far fa-question-circle mr-3"></i></a>
+                        <a href="#"><i class="fas fa-cog"></i></a>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <a href="#"><i class="fas fa-bars mr-3"></i></a>
+                        <a href="#"><img class="profile-img" src="img/profile-img.jpg" alt="profile-img"></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+     </section>
+     
+     <section>
+         <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 p-4">
+
+                    <a href="#" class="d-flex justify-content-center align-items-center mb-4 new-btn">
+
+                        <div class="py-3 mr-1">
+                            <img height="30" src="img/New-Icon.png" alt="plus-icon">
+                        </div>
+
+                        <div class="py-3 mr-1">
+                            <h5 class="my-auto">New</h5>
+                        </div>
+                    </a>
+
+                    <a href="#" class="d-flex ml-4 left-bar-btn mb-4">
+                        <div class="mr-4">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div>
+                            <h5 class="my-auto">Shared with me</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="d-flex ml-4 left-bar-btn mb-4">
+                        <div class="mr-4">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div>
+                            <h5 class="my-auto">Recent</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="d-flex ml-4 left-bar-btn mb-4">
+                        <div class="mr-4">
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div>
+                            <h5 class="my-auto">Starred</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="d-flex ml-4 left-bar-btn">
+                        <div class="mr-4">
+                            <i class="far fa-trash-alt"></i>
+                        </div>
+                        <div>
+                            <h5 class="my-auto">Trash</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-10 py-4">
+
+                    <div class="d-flex justify-content-between border-bottom mb-4">
+
+                        <div class="dropdown">
+                            <button class="btn bg-white dropdown-toggle my-drive-btn font-weight-light" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             My Drive
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Upload File</a>
+                              <a class="dropdown-item" href="#">Upload Folder</a>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mr-drive-list">
+                            <a href="#"><i class="fas fa-list mr-4"></i></a>
+                            <a href="#"><i class="fas fa-info-circle mr-4"></i></a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="quick-access ml-2 mb-5">
+
+                         <div>
+                             <p class="mb-3">Quick Access</p>
+                         </div>
+
+                        <div class="d-flex">
+                            <div class="card mr-4" style="width: 18rem;">
+                                <img class="card-img-top" src="img/Card-1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                <h5 class="card-title text-uppercase"><i class="fas fa-stream mr-2"></i> Css - Insta HW</h5>
+                                <p class="card-text small">You edited today</p>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/Card-2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                <h5 class="card-title text-uppercase"><i class="fas fa-stream mr-2"></i> 2021 goals</h5>
+                                <p class="card-text small">You edited in the past week</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="quick-access ml-2 mb-5">
+
+                        <div>
+                            <p class="mb-3">Folders</p>
+                        </div>
+
+                       <div class="d-flex">
+                           <div class="card mr-4" style="width: 18rem;">
+                               <div class="card-body">
+                               <h5 class="card-title mb-0 folder"><i class="fas fa-folder mr-4"></i>Personal Documents</h5>
+                               </div>
+                           </div>
+
+                           <div class="card mr-4" style="width: 18rem;">  
+                               <div class="card-body ">
+                               <h5 class="card-title mb-0 folder"><i class="fas fa-folder mr-4"></i>Clients</h5>
+                               </div>
+                           </div>
+                            
+                            <div class="card " style="width: 18rem;">  
+                            <div class="card-body">
+                            <h5 class="card-title mb-0 folder"><i class="fas fa-folder mr-4"></i>Final presentation</h5>
+                            </div>
+                            </div>
+
+                       </div>
+
+                   </div>
+
+                   <div class="quick-access ml-2 mb-5">
+
+                    <div>
+                        <p class="mb-3">Files</p>
+                    </div>
+
+                   <div class="d-flex">
+                       <div class="card mr-4" style="width: 18rem;">
+                           <img class="card-img-top" src="img/Card-3.jpg" alt="Card image cap">
+                           <div class="card-body">
+                           <h5 class="card-title mb-0 file"><i class="fas fa-image mr-4"></i>Banff lake</h5>                           
+                           </div>
+                       </div>
+
+                       <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="img/Card-4.jpg" alt="Card image cap">
+                           <div class="card-body">
+                           <h5 class="card-title mb-0 file"><i class="fas fa-image mr-4"></i>New York city</h5>
+                           </div>
+                       </div>
+                   </div>
+
+               </div>
+
+                </div>
+
+            </div>
+         </div>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
